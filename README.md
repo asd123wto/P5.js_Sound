@@ -10,4 +10,4 @@
 *if you want playing music,you can refer to the official website.
 >https://p5js.org/reference/#/libraries/p5.sound
 
-![image](http://video.labmem.xyz/lab/download/EBA83366627DA7D18001760A876BCDAB)
+![image](https://github.com/asd123wto/P5.js_Sound/blob/master/Test_img.png)
