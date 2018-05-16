@@ -1,7 +1,10 @@
 var fft;
+
 var fft2;
 
 var w;
+//显示的音谱数量*必须能被1024整除
+var num=512;
 
 var img;
 function preload() {
@@ -14,11 +17,11 @@ function setup() {
     angleMode(DEGREES);
     mic = new p5.AudioIn();
     mic.start();
-    fft = new p5.FFT(0.7, 512);
+    fft = new p5.FFT(0.7, num);
     fft.setInput(mic);
-    fft2 = new p5.FFT(0.9, 512);
+    fft2 = new p5.FFT(0.9, num);
     fft2.setInput(mic);
-    w=width/512;
+    w=width/num;
 }
 function draw(){
     background(img);
