@@ -2,6 +2,7 @@
 *简单的音谱显示
   >默认接受的是电脑音源输入
   >windows可以设置为混音就可以看到电脑中声音的音谱
+  
 *simple Sound Spectrum of html
   >this default AudioIn
   >but windows Can be set to remix.
